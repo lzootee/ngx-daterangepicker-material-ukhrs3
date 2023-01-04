@@ -1,0 +1,23 @@
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">Ngx-daterangepicker-material</a>
+    </div>
+  </div>
+</nav>
+<div class="container">
+	<div class="row">
+		<div class="col-sm-12">
+			<form>
+				<div class="form-group">
+					<label for="exampleInputEmail1">The range dddddate</label>
+					<input type="text" name="daterange" 
+          [locale]="{applyLabel: 'Apply', format: 'YYYY/MM/DD'}" 
+          ngxDaterangepickerMd [(ngModel)]="selected" class="form-control"
+          />
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
