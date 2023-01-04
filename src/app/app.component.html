@@ -15,6 +15,7 @@
 					<input type="text" name="daterange" 
           [locale]="{applyLabel: 'Apply', format: 'YYYY/MM/DD'}" 
           ngxDaterangepickerMd [(ngModel)]="selected" class="form-control"
+					[ranges]="ranges"
           />
 				</div>
 			</form>
